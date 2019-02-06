@@ -4,6 +4,7 @@
 
     body {
         background-color: #272727;
+        color: #fdfdfd;
     }
 
     h1 {
@@ -21,12 +22,15 @@
     p {
         font-family: 'Open Sans', sans-serif;
     }
+    
+    a {
+        color: #fdfdfd;
+    }
 }
 
 #main-wrapper {
     width: 100%;
     height: auto;
-    color: #fdfdfd;
 
     #titles {
         margin: 100px 0;
