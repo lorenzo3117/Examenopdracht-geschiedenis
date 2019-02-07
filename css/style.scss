@@ -24,10 +24,10 @@
     p, li {
         font-family: 'Open Sans', sans-serif;
         text-decoration: none;
-        line-height: 1.4;
+        line-height: 1.5;
         text-align: justify;
     }
-    
+
     a {
         color: #fdfdfd;
     }
@@ -50,14 +50,4 @@
             margin-left: 40px;
         }
     }
-}
-
-[data-scroll] {
-    transition: opacity 1s;
-}
-[data-scroll="in"] {
-opacity: 1;
-}
-[data-scroll="out"] {
-opacity: 0;
 }
