@@ -11,17 +11,22 @@
 * h1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 4.6em;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 * h2 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 2.4em;
+  font-size: 2.6em;
   font-style: italic;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
-* p {
+* p, * li {
   font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  line-height: 1.4;
+  text-align: justify;
 }
 
 * a {
@@ -31,14 +36,32 @@
 #main-wrapper {
   width: 100%;
   height: auto;
+  padding: 100px 0;
 }
 
 #main-wrapper #titles {
-  margin: 100px 0;
+  margin-bottom: 100px;
 }
 
 #main-wrapper #main {
   width: 70vw;
   margin: 0 auto;
+}
+
+#main-wrapper #main ul {
+  margin-left: 40px;
+}
+
+[data-scroll] {
+  -webkit-transition: opacity 1s;
+  transition: opacity 1s;
+}
+
+[data-scroll="in"] {
+  opacity: 1;
+}
+
+[data-scroll="out"] {
+  opacity: 0;
 }
 /*# sourceMappingURL=style.css.map */
